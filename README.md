@@ -1,12 +1,12 @@
 # Paradise-Made-Easy
 
 # Run Backend
-- Go to /paradise-app/server
+- Go to `/paradise-app/server`
 - Install dependencies `npm i`
 - start the server: `npm start`
 
 # Run frontEnd
-Go to /paradise-app/client
+Go to `/paradise-app/client`
 - Install dependencies `npm i`
 - start the server: `npm start`
 
