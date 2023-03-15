@@ -1,0 +1,853 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+}
+/* .search-page-search-page-wrapper {
+    background-color: 
+  #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  } */
+  
+  .search-page-search-page {
+    background-color: 
+  #ffffff;
+    border: 1px none;
+    height: 1117px;
+    overflow: hidden;
+    position: relative;
+    width: 1728px;
+  }
+  
+  .search-page-overlap {
+    height: 83px;
+    left: 0;
+    position: absolute;
+    top: 1034px;
+    width: 1782px;
+  }
+  
+  .search-page-paradise-will-take-into-account-previous-meeting-comments-to-leverage-the-user-conduct {
+    color: 
+  #ff0202;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 1060px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 43px;
+    width: 722px;
+  }
+  
+  .search-page-footer {
+    background-color: 
+  transparent;
+    height: 83px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .search-page-logout {
+    color: 
+  #000000;
+    cursor: pointer;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 38px;
+  }
+  
+  .search-page-overlap-group12 {
+    border-radius: 19px/21px;
+    height: 42px;
+    left: 12px;
+    position: absolute;
+    top: 28px;
+    width: 38px;
+  }
+  
+  .search-page-ellipse {
+    background-color: 
+  #c65252;
+    border-radius: 19px/21px;
+    cursor: pointer;
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 38px;
+  }
+  
+  .search-page-line {
+    cursor: pointer;
+    height: 21px;
+    left: 16px;
+    position: absolute;
+    top: 11px;
+    width: 6px;
+  }
+  
+  .search-page-terms-conditions {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 1041px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+  }
+  
+  .search-page-header {
+    background-color: 
+  transparent;
+    height: 185px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1728px;
+  }
+  
+  .search-page-overlap-group2 {
+    height: 53px;
+    left: 29px;
+    position: absolute;
+    top: 13px;
+    width: 171px;
+  }
+  
+  .search-page-paradise {
+    color: 
+  transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  
+
+  
+  .search-page-text-wrapper-2 {
+    color: 
+  #ffffff;
+  }
+  
+  .search-page-line-3 {
+    height: 7px;
+    left: 3px;
+    position: absolute;
+    top: 46px;
+    width: 164px;
+  }
+  
+  .search-page-frame {
+    height: 92px;
+    left: 485px;
+    position: absolute;
+    top: 14px;
+    width: 928px;
+  }
+  
+  .search-page-overlap-group {
+    background-color: 
+  #d9d9d947;
+    border-radius: 16px;
+    height: 53px;
+    left: 29px;
+    position: relative;
+    top: 9px;
+    width: 863px;
+  }
+  
+  .search-page-search {
+    background-color: 
+  transparent;
+    border: 0;
+    color: 
+  #00000066;
+    font-family: "Inter", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    height: 36px;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    position: absolute;
+    top: 6px;
+    width: 702px;
+  }
+  
+  .search-page-overlap-group1 {
+    border-radius: 16px;
+    height: 53px;
+    left: 712px;
+    position: absolute;
+    top: 0;
+    width: 151px;
+  }
+  
+  .search-page-rectangle {
+    background-color: 
+  #000000;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 151px;
+  }
+  
+  .search-page-div {
+    color: 
+  #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+  }
+  
+  /* .search-page-body-list {
+    height: 847px;
+    left: 206px;
+    position: absolute;
+    top: 185px;
+    width: 830px;
+  } */
+  
+  /* .search-page-overlap-group6 {
+    height: 39px;
+    left: 55px;
+    position: absolute;
+    top: 1px;
+    width: 628px;
+  } */
+  
+  .search-page-rectangle-3 {
+    background-color: 
+  #b07c8f;
+    cursor: pointer;
+    height: 39px;
+    left: 71px;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s ease;
+    width: 557px;
+  }
+  
+  .search-page-jacques-kabeya {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 198px;
+  }
+  
+  .search-page-img {
+    height: 39px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 84px;
+  }
+  
+  .search-page-overlap-group4 {
+    height: 39px;
+    left: 55px;
+    position: absolute;
+    top: 56px;
+    width: 628px;
+  }
+  
+  .search-page-rectangle-4 {
+    background-color: 
+  #ababb5;
+    cursor: pointer;
+    height: 39px;
+    left: 71px;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s ease;
+    width: 557px;
+  }
+  
+  .search-page-yves-laroche {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 194px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 163px;
+  }
+  
+  .search-page-overlap-group9 {
+    height: 40px;
+    left: 55px;
+    position: absolute;
+    top: 110px;
+    width: 628px;
+  }
+  
+  .search-page-rectangle-5 {
+    background-color: 
+  #ababb5;
+    height: 40px;
+    left: 71px;
+    position: absolute;
+    top: 0;
+    width: 557px;
+  }
+  
+  .search-page-vincent-rogers {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 184px;
+  }
+  
+  .search-page-img-2 {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 84px;
+  }
+  
+  .search-page-overlap-group7 {
+    height: 39px;
+    left: 55px;
+    position: absolute;
+    top: 165px;
+    width: 628px;
+  }
+  
+  .search-page-rectangle-6 {
+    background-color: 
+  #ababb5;
+    height: 39px;
+    left: 71px;
+    position: absolute;
+    top: 0;
+    width: 557px;
+  }
+  
+  .search-page-clayton-karis {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 160px;
+  }
+  
+  .search-page-overlap-group3 {
+    height: 40px;
+    left: 55px;
+    position: absolute;
+    top: 219px;
+    width: 628px;
+  }
+  
+  .search-page-rectangle-7 {
+    background-color: 
+  #ababb5;
+    height: 39px;
+    left: 71px;
+    position: absolute;
+    top: 1px;
+    width: 557px;
+  }
+  
+  .search-page-cayla-martin {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 152px;
+  }
+  
+  .search-page-overlap-group10 {
+    height: 41px;
+    left: 55px;
+    position: absolute;
+    top: 273px;
+    width: 628px;
+  }
+  
+  .search-page-rectangle-8 {
+    background-color: 
+  #ababb5;
+    height: 40px;
+    left: 71px;
+    position: absolute;
+    top: 1px;
+    width: 557px;
+  }
+  
+  .search-page-element-s {
+    height: 41px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 84px;
+  }
+  
+  .search-page-omar-washington {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    width: 215px;
+  }
+  
+  .search-page-overlap-group8 {
+    height: 40px;
+    left: 55px;
+    position: absolute;
+    top: 328px;
+    width: 625px;
+  }
+  
+  .search-page-rectangle-9 {
+    background-color: 
+  #ababb5;
+    height: 39px;
+    left: 68px;
+    position: absolute;
+    top: 1px;
+    width: 557px;
+  }
+  
+  .search-page-haley-campbell {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    width: 189px;
+  }
+  
+  .search-page-overlap-group5 {
+    height: 40px;
+    left: 55px;
+    position: absolute;
+    top: 383px;
+    width: 624px;
+  }
+  
+  .search-page-rectangle-10 {
+    background-color: 
+  #ababb5;
+    height: 39px;
+    left: 66px;
+    position: absolute;
+    top: 1px;
+    width: 558px;
+  }
+  
+  .search-page-adder-rollen {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 188px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 154px;
+  }
+  
+  .search-page-guestdetails {
+    height: 846px;
+    left: 1036px;
+    position: absolute;
+    top: 188px;
+    width: 631px;
+  }
+  
+  .search-page-overlap-group11 {
+    height: 727px;
+    position: relative;
+    width: 594px;
+  }
+  
+  .search-page-rectangle-11 {
+    background-color: 
+  #f7f7f7;
+    border-radius: 28px;
+    height: 650px;
+    left: 0;
+    position: absolute;
+    top: 38px;
+    width: 594px;
+  }
+  
+  .search-page-rectangle-16 {
+    background-color: 
+  #000000;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 72px;
+    left: 78px;
+    position: absolute;
+    top: 655px;
+    width: 458px;
+  }
+  
+  .search-page-comment {
+    color: 
+  #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 236px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 671px;
+    width: 153px;
+  }
+  
+  .search-page-element-1x1-s-5 {
+    height: 174px;
+    left: 167px;
+    object-fit: cover;
+    position: absolute;
+    top: 103px;
+    width: 254px;
+  }
+  
+  .search-page-rectangle-14 {
+    background-color: 
+  #d9d9d9;
+    height: 83px;
+    left: 157px;
+    position: absolute;
+    top: 0;
+    width: 299px;
+  }
+  
+  .search-page-reservation-details {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 167px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+  }
+  
+  .search-page-full-name-john-doe {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 69px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 301px;
+  }
+  
+  .search-page-reservation-code {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 69px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 369px;
+  }
+  
+  .search-page-email-johndoe-gmail-com {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 436px;
+  }
+  
+  .search-page-meeting-time-EST {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 509px;
+  }
+  
+  .search-page-group-campbell {
+    color: 
+  #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 582px;
+  }
+
+
+
+
+
+
+
+
+  .App {
+    text-align: center;
+  }
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .search-page-text-wrapper {
+    color: 
+  #0a0a0a;
+  }
+
+  .search-page-span {
+    color: 
+  #c65252;
+  }
